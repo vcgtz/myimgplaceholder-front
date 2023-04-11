@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html",
-    "start": "yarn dev"
+    "lint": "eslint src/**/*.{js,jsx}",
+    "start": "npm run dev"
   },
   "keywords": [
     "images",
@@ -21,6 +22,12 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
+    "eslint": "^8.38.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "parcel": "^2.8.3",
     "postcss": "^8.4.21",
     "process": "^0.11.10",
